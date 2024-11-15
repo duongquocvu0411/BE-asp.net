@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>webapi</name>
+    </assembly>
+    <members>
+        <member name="M:webapi.Controllers.ChitietsController.GetChitiets">
+            <summary>
+            lấy toàn bộ danh sách chitiets
+            </summary>
+            <returns> lấy toàn bộ danh sách chitiets</returns>
+        </member>
+        <member name="M:webapi.Controllers.ChitietsController.GetChitiet(System.Int32)">
+            <summary>
+            xem chitiet theo id của sanpham_id {id}
+            </summary>
+            <returns> xem chitiet theo id của sanpham_id {id}</returns>
+        </member>
+        <member name="M:webapi.Controllers.ChitietsController.PostChitiet(webapi.Model.ChiTiet)">
+            <summary>
+            xem chitiet theo id của sanpham_id {id}
+            </summary>
+            /// <returns> xem chitiet theo id của sanpham_id {id}</returns>
+        </member>
+        <member name="M:webapi.Controllers.ChitietsController.UpdateChitiet(System.Int32,webapi.Model.ChiTiet)">
+            <summary>
+            chỉnh sửa chitiet sản phẩm theo sản phẩm {i}
+            </summary>
+            <returns> chỉnh sửa chitiet sản phẩm theo sản phẩm {id}</returns>
+        </member>
+        <member name="M:webapi.Controllers.ChitietsController.DeleteChitiet(System.Int32)">
+            <summary>
+            xóa chitiet sản phẩm theo {idsanpham}
+            </summary>
+            <returns> xóa chitiet sản phẩm theo {idsanpham}</returns>
+        </member>
+        <member name="M:webapi.Controllers.DanhmucsanphamController.GetDanhmucsanpham">
+            <summary>
+            Lấy danh sách của Danh Mục sản phẩm
+            </summary>
+            <returns> Lấy danh sách của Danh Mục sản phẩm</returns>
+        </member>
+        <member name="M:webapi.Controllers.DanhmucsanphamController.GetDanhmucsanpham(System.Int32)">
+            <summary>
+            Lấy danh sách Danh mục sản phẩm theo {id}
+            </summary>
+            <returns> Lấy danh sách Danh mục sản phẩm theo {id}</returns>
+        </member>
+        <member name="M:webapi.Controllers.DanhmucsanphamController.PostDanhmucsanpham(webapi.Model.Danhmucsanpham)">
+            <summary>
+             Thêm mới 1 danh mục sản phẩm
+            </summary>
+            <returns> Thêm mới 1 danh mục sản phẩm </returns>
+        </member>
+        <member name="M:webapi.Controllers.DanhmucsanphamController.PutDanhmucsanpham(System.Int32,webapi.Model.Danhmucsanpham)">
+            <summary>
+            Chỉnh sửa danh mục sản phẩm theo {id}
+            </summary>
+            <returns> Chỉnh sửa danh mục sản phẩm theo {id}</returns>
+        </member>
+        <member name="M:webapi.Controllers.DanhmucsanphamController.DeleteDanhmucsanpham(System.Int32)">
+            <summary>
+            Xóa 1 danh mục sản phẩm theo {id}
+            </summary>
+            <returns> Xóa 1 danh mục sản phẩm theo {id}</returns>
+        </member>
+        <member name="M:webapi.Controllers.DiachichitietController.Index">
+            <summary>
+            Lấy danh sách tất cả các địa chỉ chi tiết.
+            </summary>
+            <returns>Danh sách các đối tượng Diachichitiet</returns>
+        </member>
+        <member name="M:webapi.Controllers.DiachichitietController.Store(webapi.Model.Diachichitiet)">
+            <summary>
+            thêm 1  địa chỉ chi tiết.
+            </summary>
+            <returns>thêm 1  địa chỉ chi tiết.</returns>
+        </member>
+        <member name="M:webapi.Controllers.DiachichitietController.Show(System.Int32)">
+            <summary>
+            xem id  địa chỉ chi tiết.
+            </summary>
+            <returns>xem id  địa chỉ chi tiết.</returns>
+        </member>
+        <member name="M:webapi.Controllers.DiachichitietController.Update(System.Int32,webapi.Model.Diachichitiet)">
+            <summary>
+            chỉnh sửa  địa chỉ chi tiết theo {id}.
+            </summary>
+            <returns>chỉnh sửa  địa chỉ chi tiết theo {id}.</returns>
+        </member>
+        <member name="M:webapi.Controllers.DiachichitietController.Destroy(System.Int32)">
+            <summary>
+            Xóa địa chỉ chi tiết theo {id}.
+            </summary>
+            <returns>Xóa địa chỉ chi tiết theo {id}..</returns>
+        </member>
+        <member name="M:webapi.Controllers.DiachichitietController.SetDiaChiHien(System.Int32)">
+            <summary>
+            post địa chỉ chi tiết {id} status thành: "đang sử dụng"
+            </summary>
+            <returns>post địa chỉ chi tiết {id} status thành: "đang sử dụng"</returns>
+        </member>
+        <member name="M:webapi.Controllers.DiachichitietController.GetDiaChiHien">
+            <summary>
+            lấy danh sách địa chỉ chi tiết đang có status : "đang sử dụng"
+            </summary>
+            <returns> lấy danh sách địa chỉ chi tiết đang có status : "đang sử dụng"</returns>
+        </member>
+        <member name="M:webapi.Controllers.LienHeController.GetLienHes">
+            <summary>
+            Lấy danh sách liên hệ
+            </summary>
+            <returns> Lấy danh sách liên hệ </returns>
+        </member>
+        <member name="M:webapi.Controllers.LienHeController.PostLienHe(webapi.Model.Lienhe)">
+            <summary>
+             Thêm mới liên hệ
+            </summary>
+            <returns> Thêm mới liên hệ  </returns>
+        </member>
+        <member name="M:webapi.Controllers.LienHeController.DeleteLienHe(System.Int32)">
+            <summary>
+            Xóa liên hệ theo {id}
+            </summary>
+            <returns>  Xóa liên hệ theo {id} </returns>
+        </member>
+        <member name="M:webapi.Controllers.SanphamController.GetSanphams">
+            <summary>
+            Lấy danh sách sản phẩm
+            </summary>
+            <returns> Lấy danh sách sản phẩm </returns>
+        </member>
+        <member name="M:webapi.Controllers.SanphamController.GetSanphamById(System.Int32)">
+            <summary>
+            Lấy sản phẩm theo {id} xem chi tiết sản phẩm
+            </summary>
+            <returns> Lấy sản phẩm theo {id} xem chi tiết sản phẩm </returns>
+        </member>
+        <member name="M:webapi.Controllers.SanphamController.PostSanpham(webapi.DTO.SanphamDTO.SanphamCreateRequest)">
+            <summary>
+            Thêm mới sản phẩm
+            </summary>
+            <returns>  Thêm mới sản phẩm</returns>
+        </member>
+        <member name="M:webapi.Controllers.SanphamController.PutSanpham(System.Int32,webapi.DTO.SanphamDTO.SanphamUpdateRequest)">
+            <summary>
+             Chỉnh sửa sản phẩm theo {id}
+            </summary>
+            <returns> Chỉnh sửa sản phẩm theo {id}  </returns>
+        </member>
+        <member name="M:webapi.Controllers.SanphamController.DeleteSanpham(System.Int32)">
+            <summary>
+             Xóa sản phẩm theo {id}
+            </summary>
+            <returns> Xóa sản phẩm theo {id}  </returns>
+        </member>
+        <member name="M:webapi.Controllers.SanphamController.DeleteImage(System.Int32)">
+            <summary>
+             Xóa hình ảnh phụ của sản phẩm
+            </summary>
+            <returns> Xóa hình ảnh phụ của sản phẩm  </returns>
+        </member>
+        <member name="M:webapi.Controllers.SanphamController.GetSanphamsByDanhMuc(System.Int32)">
+            <summary>
+             Lấy sản phẩm theo danh mục {danhmucid}
+            </summary>
+            <returns> Lấy sản phẩm theo danh mục {danhmucid}  </returns>
+        </member>
+        <member name="M:webapi.Controllers.SanphamController.GetTongSanPham">
+            <summary>
+             lấy Tổng sản phẩm đang có trong bảng
+            </summary>
+            <returns> lấy Tổng sản phẩm đang có trong bảng  </returns>
+        </member>
+        <member name="M:webapi.Controllers.SanphamController.UploadImage(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            thêm mới hình ảnh ở chitiet sản phẩm
+            </summary>
+            <returns> thêm mới hình ảnh ở chitiet sản phẩm </returns>
+        </member>
+        <member name="M:WebApi.Controllers.DanhGiaKhachHangController.GetDanhGiaKhachHang(System.Nullable{System.Int32})">
+            <summary>
+            lấy danh sách của Đánh giá khách hàng
+            </summary>
+            <returns> lấy danh sách của Đánh giá khách hàng</returns>
+        </member>
+        <member name="M:WebApi.Controllers.DanhGiaKhachHangController.GetDanhGiaKhachHangById(System.Int32)">
+            <summary>
+            Lấy đánh giá khách hàng theo {id_sanpham}
+            </summary>
+            <returns> Lấy đánh giá khách hàng theo {id_sanpham}</returns>
+        </member>
+        <member name="M:WebApi.Controllers.DanhGiaKhachHangController.CreateDanhGiaKhachHang(WebApi.Model.DanhGiaKhachHang)">
+            <summary>
+             Thêm mới 1 đánh giá  của {id_sanpham}
+            </summary>
+            <returns> Thêm mới 1 đánh giá của {id_sanpham}  </returns>
+        </member>
+        <member name="M:WebApi.Controllers.DanhGiaKhachHangController.DeleteDanhGiaKhachHang(System.Int32)">
+            <summary>
+             Xóa 1 đánh giá theo {id} 
+            </summary>
+            <returns> Xóa 1 đánh giá theo {id}  </returns>
+        </member>
+        <member name="M:WebApi.Controllers.HoaDonController.GetHoaDons">
+            <summary>
+            Lấy danh sách hóa đơn
+            </summary>
+            <returns>  Lấy danh sách hóa đơn</returns>
+        </member>
+        <member name="M:WebApi.Controllers.HoaDonController.CreateHoaDon(webapi.DTO.HoadonDTO.HoaDonDto)">
+            <summary>
+             Thêm mới hóa đơn 
+            </summary>
+            <returns> Thêm mới hóa đơn  </returns>
+        </member>
+        <member name="M:WebApi.Controllers.HoaDonController.GetHoaDonByOrderCode(System.String)">
+            <summary>
+            Tra cứu theo mã của hóa đơn
+            </summary>
+            <returns>Tra cứu theo mã của hóa đơn</returns>
+        </member>
+        <member name="M:WebApi.Controllers.HoaDonController.CancelOrder(System.String)">
+            <summary>
+            tra cứu đơn và hủy đơn hàng 
+            </summary>
+            <returns>tra cứu đơn và hủy đơn hàng </returns>
+        </member>
+        <member name="M:WebApi.Controllers.HoaDonController.UpdateStatus(System.Int32,WebApi.Controllers.HoaDonController.UpdateStatusDto)">
+            <summary>
+            Chỉnh sửa status của hóa đơn
+            </summary>
+            <returns> Chỉnh sửa status của hóa đơn </returns>
+        </member>
+        <member name="M:WebApi.Controllers.HoaDonController.GetDoanhThuTheoThang(System.Int32,System.Int32)">
+            <summary>
+            Lấy danh thu theo tháng {year}/ {moth}
+            </summary>
+            <returns> Lấy danh thu theo tháng {year}/ {moth} </returns>
+        </member>
+        <member name="M:WebApi.Controllers.HoaDonController.GetDoanhThuHomNay">
+            <summary>
+            Lấy danh thu theo ngày hiện tại
+            </summary>
+            <returns> Lấy danh thu theo ngày hiện tại </returns>
+        </member>
+        <member name="M:WebApi.Controllers.HoaDonController.GetDoanhThuTheoTungThang">
+            <summary>
+            Lấy toàn bộ danh thu của các tháng
+            </summary>
+            <returns> Lấy toàn bộ danh thu của các tháng </returns>
+        </member>
+        <member name="M:WebApi.Controllers.KhachHangController.GetKhachHangs">
+            <summary>
+            Lấy danh sách của Khách hàng và hóa đơn
+            </summary>
+            <returns> Lấy danh sách của Khách hàng và hóa đơn</returns>
+        </member>
+        <member name="M:WebApi.Controllers.KhachHangController.GetKhachHang(System.Int32)">
+            <summary>
+            Xem khách hàng theo id có hóa đơn, hóa đơn chi tiết
+            </summary>
+            <returns> xem khách hàng theo id có hóa đơn , hóa đơn chi tiết </returns>
+        </member>
+        <member name="M:WebApi.Controllers.KhachHangController.PostKhachHang(WebApi.Model.KhachHang)">
+            <summary>
+            Thêm mới khách hàng
+            </summary>
+            <returns> Thêm mới khách hàng</returns>
+        </member>
+        <member name="M:WebApi.Controllers.KhachHangController.DeleteKhachHang(System.Int32)">
+            <summary>
+            Xóa khách hàng theo {id} 
+            </summary>
+            <returns> Xóa khách hàng theo {id} </returns>
+        </member>
+        <member name="M:WebApi.Controllers.KhachHangController.LayTongKhachHangMoiTrongThang">
+            <summary>
+            Lấy tổng số khách hàng mới trong tháng hiện tại
+            </summary>
+            <returns> Tổng số khách hàng mới trong tháng hiện tại </returns>
+        </member>
+    </members>
+</doc>

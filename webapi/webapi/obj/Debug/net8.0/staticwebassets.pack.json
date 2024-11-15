@@ -1,0 +1,89 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\image\\423715766_404396295394922_2349762636563174932_n.jpg",
+      "PackagePath": "staticwebassets\\image\\423715766_404396295394922_2349762636563174932_n.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\image\\Fron-end 4_snapshot_00.03.20.064.jpg",
+      "PackagePath": "staticwebassets\\image\\Fron-end 4_snapshot_00.03.20.064.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\image\\Fron-end 9_snapshot_00.02.02.503.jpg",
+      "PackagePath": "staticwebassets\\image\\Fron-end 9_snapshot_00.02.02.503.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\image\\tải xuống.jpg",
+      "PackagePath": "staticwebassets\\image\\tải xuống.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\upload\\638670143006019693_tải xuống.jpg",
+      "PackagePath": "staticwebassets\\upload\\638670143006019693_tải xuống.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\upload\\638670143380829060_tải xuống.jpg",
+      "PackagePath": "staticwebassets\\upload\\638670143380829060_tải xuống.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\upload\\638670150885262965_Fron-end 4_snapshot_00.03.20.064.jpg",
+      "PackagePath": "staticwebassets\\upload\\638670150885262965_Fron-end 4_snapshot_00.03.20.064.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\upload\\638670172019057391_tải xuống.jpg",
+      "PackagePath": "staticwebassets\\upload\\638670172019057391_tải xuống.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\upload\\638670175434692941_Fron-end 4_snapshot_00.03.20.064.jpg",
+      "PackagePath": "staticwebassets\\upload\\638670175434692941_Fron-end 4_snapshot_00.03.20.064.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\upload\\638670209158968617_tải xuống.jpg",
+      "PackagePath": "staticwebassets\\upload\\638670209158968617_tải xuống.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\upload\\638670210275085007_tải xuống.jpg",
+      "PackagePath": "staticwebassets\\upload\\638670210275085007_tải xuống.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\upload\\638670211472759704_tải xuống.jpg",
+      "PackagePath": "staticwebassets\\upload\\638670211472759704_tải xuống.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\upload\\638670212788264160_tải xuống.jpg",
+      "PackagePath": "staticwebassets\\upload\\638670212788264160_tải xuống.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\upload\\638670213717129323_tải xuống.jpg",
+      "PackagePath": "staticwebassets\\upload\\638670213717129323_tải xuống.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\upload\\638670214263074942_Fron-end 4_snapshot_00.03.20.064.jpg",
+      "PackagePath": "staticwebassets\\upload\\638670214263074942_Fron-end 4_snapshot_00.03.20.064.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\upload\\638670241729602623_Fron-end 4_snapshot_00.03.20.064.jpg",
+      "PackagePath": "staticwebassets\\upload\\638670241729602623_Fron-end 4_snapshot_00.03.20.064.jpg"
+    },
+    {
+      "Id": "E:\\BE\\webapi\\webapi\\wwwroot\\upload\\638671886692057536_Fron-end 4_snapshot_00.03.20.064.jpg",
+      "PackagePath": "staticwebassets\\upload\\638671886692057536_Fron-end 4_snapshot_00.03.20.064.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.webapi.props",
+      "PackagePath": "build\\webapi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.webapi.props",
+      "PackagePath": "buildMultiTargeting\\webapi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.webapi.props",
+      "PackagePath": "buildTransitive\\webapi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.webapi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
